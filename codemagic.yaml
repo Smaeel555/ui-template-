@@ -7,3 +7,4 @@ workflows:
       - flutter pub get
       - flutter build apk --debug
       - flutter test
+    project_path: main     
