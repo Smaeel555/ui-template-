@@ -1,0 +1,9 @@
+workflows:
+  build_and_test:
+    name: Build and test
+    env:
+      - FLUTTER_VERSION=2.0.0
+    script:
+      - flutter pub get
+      - flutter build apk --debug
+      - flutter test
